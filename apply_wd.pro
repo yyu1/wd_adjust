@@ -22,7 +22,7 @@ Pro apply_wd, agb_in_file, agb_out_file, type_file, wd_file, type_code, in_tl_x,
 
 
 	;read wd image
-	wd_image = fltarr(8640,2300)
+	wd_image = fltarr(43200,11500)
 	openr, in_lun, wd_file, /get_lun
 	readu, in_lun, wd_image
 	free_lun, in_lun
