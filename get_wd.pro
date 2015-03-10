@@ -3,10 +3,10 @@
 Function get_wd, wd_image, longitude, latitude
 	;map information for wood density image
 	tl_x = -180.0D
-	tl_y = 39.04166259D
-	pix_size = 0.04166666666666666D
-	xdim = 8640ULL
-	ydim = 2300ULL
+	tl_y = 39.00002040D
+	pix_size = 0.00833333333333333D
+	xdim = 43200ULL
+	ydim = 11500ULL
 
 	ind_x = long((longitude - tl_x) / pix_size)
 	ind_y = long((tl_y-latitude) / pix_size)
